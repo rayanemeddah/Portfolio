@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Rayane MEDDAH - Étudiant BTS SIO option SLAM, passionné par le développement d'applications et l'algorithmique">
+    <title>Portfolio - Rayane MEDDAH | BTS SIO SLAM</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>&lt;</span>Rayane.MEDDAH<span>/&gt;</span>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">Formation</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#parcours" class="nav-link">Parcours</a></li>
+                <li><a href="#veille" class="nav-link">Veille</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+        <div class="hero-content">
+            <p class="hero-hello">Bonjour, je suis</p>
+            <h1 class="hero-name">Rayane MEDDAH</h1>
+            <p class="hero-title">
+                <span id="typed-text"></span>
+                <span class="cursor">|</span>
+            </p>
+            <p class="hero-description">
+                Étudiant en BTS SIO option SLAM, passionné par le développement 
+                d'applications et la résolution de problèmes algorithmiques complexes.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="bi bi-file-earmark-pdf"></i>
+                    Voir mon CV
+                </a>
+                <a href="#contact" class="btn btn-outline">Me contacter</a>
+            </div>
+        </div>
+
+<div class="hero-image">
+    <div class="image-wrapper">
+        <img src="assets/images/profile2.png" alt="Photo de Rayane MEDDAH" loading="lazy">
+    </div>
+</div>
+        
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+<!-- Section Formation -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">
+            <span>◆</span> Ma formation
+        </h2>
+        
+        <div class="about-content">
+            <div class="about-text">
+    <p class="about-description">
+        Actuellement étudiant en <strong>BTS Services Informatiques aux Organisations (SIO)</strong>, 
+        une formation qui offre deux spécialisations distinctes et complémentaires.
+    </p>
+
+    <div class="specialties-comparison">
+        <div class="specialty-card">
+            <h4><i class="bi bi-hdd-network-fill"></i> SISR — Solutions d'Infrastructure, Systèmes et Réseaux</h4>
+            <p>
+                Cette option forme des techniciens capables de concevoir, déployer et maintenir 
+                l'infrastructure informatique d'une organisation. Elle couvre l'administration 
+                des systèmes (Windows Server, Linux), la gestion des réseaux (routage, switching, 
+                VPN), la virtualisation (VMware, VirtualBox), la cybersécurité (pare-feu, 
+                supervision) ainsi que la maintenance et le support technique. Les étudiants 
+                apprennent à garantir la disponibilité, la performance et la sécurité des 
+                infrastructures informatiques.
+            </p>
+        </div>
+
+        <div class="specialty-card active">
+            <h4><i class="bi bi-code-slash"></i> SLAM — Solutions Logicielles et Applications Métiers</h4>
+            <p>
+                Cette option, que j'ai choisie, forme des développeurs capables de concevoir 
+                et réaliser des applications logicielles adaptées aux besoins des organisations. 
+                Elle couvre le développement web (front-end et back-end), la programmation 
+                orientée objet (Java, C#, PHP, Python), la conception et gestion de bases de 
+                données (MySQL, modélisation MCD/MLD), les méthodologies agiles (Scrum, Kanban) 
+                ainsi que la sécurité des applications. Les étudiants apprennent à analyser 
+                les besoins, concevoir des solutions logicielles complètes et les déployer 
+                dans un environnement professionnel.
+            </p>
+        </div>
+    </div>
+
+    <p class="about-description">
+        J'ai choisi <strong>SLAM</strong> car je suis passionné par la création d'applications 
+        et la résolution de problèmes complexes à travers le code. Mon objectif :
+        <strong>développeur full-stack</strong> capable de concevoir des solutions complètes, 
+        performantes et innovantes.
+    </p>
+</div>
+    </div>
+
+</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Section Projets -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span>◆</span> Mes réalisations
+            </h2>
+
+            <!-- Filtres de projets -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="bi bi-grid-fill"></i>
+                    Tous les projets
+                </button>
+                <button class="filter-btn" data-filter="professional">
+                    <i class="bi bi-briefcase-fill"></i>
+                    Projets professionnels
+                </button>
+                <button class="filter-btn" data-filter="academic">
+                    <i class="bi bi-mortarboard-fill"></i>
+                    Projets académiques
+                </button>
+                <button class="filter-btn" data-filter="personal">
+                    <i class="bi bi-person-fill"></i>
+                    Projets personnels
+                </button>
+            </div>
+
+            <!-- Compteur de projets -->
+            <div class="project-count">
+                <span id="projectCount">3</span> projet(s) affiché(s)
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projet 1 - Académique : Jeu de devinette en C -->
+                <article class="project-card" data-category="academic">
+                    <div class="project-badge academic">
+                        <i class="bi bi-mortarboard-fill"></i>
+                        Licence 1
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/images/projects/projet1.jpg" alt="Jeu de devinette en C" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/rayanemeddah/jeu-devinette-c" target="_blank" rel="noopener noreferrer" title="GitHub">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" class="project-details" data-project="1" title="Détails">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>C</span>
+                            <span>Algorithmique</span>
+                            <span>Fichiers</span>
+                        </div>
+                        <h3>Jeu de devinette de mots en C</h3>
+                        <p>Application console complète développée en Licence 1 avec gestion de joueurs, système de niveaux et sauvegarde automatique.</p>
+                    </div>
+                </article>
+
+            <!-- Projet 4 - VoisinPartage -->
+<article class="project-card" data-category="academic">
+    <div class="project-badge academic">
+        <i class="bi bi-mortarboard-fill"></i>
+        BTS SIO 1
+    </div>
+    <div class="project-image">
+        <img src="assets/images/projects/VoisinPartage.png" alt="VoisinPartage - Application de partage d'objets entre voisins" loading="lazy">
+        <div class="project-overlay">
+            <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" title="GitHub (bientôt disponible)">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" class="project-details" data-project="voisinpartage" title="Détails">
+                    <i class="bi bi-eye"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="project-content">
+        <div class="project-tags">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>JavaScript</span>
+            <span>HTML5/CSS3</span>
+        </div>
+        <h3>VoisinPartage - Partage d'objets entre voisins</h3>
+        <p>Plateforme Web collaborative permettant aux habitants d'une ville de partager des objets (prêt/don) avec système d'authentification sécurisé, messagerie privée et tableau de bord administrateur.</p>
+    </div>
+</article>
+
+                <!-- Projet Clinique Manager -->
+<article class="project-card" data-category="academic">
+    <div class="project-badge academic">
+        <i class="bi bi-mortarboard-fill"></i>
+        BTS SIO 1
+    </div>
+    <div class="project-image">
+        <img src="assets/images/projects/clinique-manager.png" 
+             alt="Clinique Manager - Application web de gestion de clinique" 
+             loading="lazy">
+        <div class="project-overlay">
+            <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" 
+                   title="GitHub (bientôt disponible)">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="#" class="project-details" 
+                   data-project="cliniquemanager" title="Détails">
+                    <i class="bi bi-eye"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="project-content">
+        <div class="project-tags">
+            <span>Java EE</span>
+            <span>MySQL</span>
+            <span>Tomcat</span>
+            <span>JSP</span>
+            <span>Servlet</span>
+        </div>
+        <h3>Clinique Manager - Gestion de clinique</h3>
+        <p>Application web de gestion d'une clinique avec authentification sécurisée, 
+           gestion des rôles (Admin/Médecin/Secrétaire), patients, rendez-vous, 
+           consultations et tableau de bord statistiques.</p>
+    </div>
+</article>
+
+
+            <!-- Message si aucun projet -->
+            <div class="no-projects" id="noProjects" style="display: none;">
+                <i class="bi bi-inbox"></i>
+                <p>Aucun projet dans cette catégorie pour le moment.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Section Compétences -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h2 class="section-title">
+            <span>◆</span> Mes compétences
+        </h2>
+
+        <div class="skills-intro">
+            <p>Voici les technologies et outils que je maîtrise dans le cadre de ma formation BTS SIO et de mes projets personnels.</p>
+        </div>
+
+        <!-- Filtres de compétences -->
+        <div class="skills-filters">
+            <button class="skill-filter-btn active" data-skill-filter="all">
+                <i class="bi bi-grid-fill"></i>
+                Toutes les compétences
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="programming">
+                <i class="bi bi-code-slash"></i>
+                Programmation
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="web">
+                <i class="bi bi-window-desktop"></i>
+                Web
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="database">
+                <i class="bi bi-database-fill"></i>
+                Bases de données
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="tools">
+                <i class="bi bi-tools"></i>
+                Outils
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="systems">
+                <i class="bi bi-terminal-fill"></i>
+                Systèmes
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="ai">
+                <i class="bi bi-robot"></i>
+                Intelligence Artificielle
+            </button>
+            <button class="skill-filter-btn" data-skill-filter="learning">
+                <i class="bi bi-book-fill"></i>
+                En apprentissage
+            </button>
+        </div>
+
+        <!-- Compteur de compétences -->
+        <div class="skills-count">
+            <span id="skillsCount">0</span> compétence(s) affichée(s)
+        </div>
+
+        <!-- Langages de programmation -->
+        <div class="skill-section" data-skill-category="programming">
+            <h3 class="skill-section-title">
+                <i class="bi bi-code-slash"></i>
+                Langages de programmation
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="csharp">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                    </div>
+                    <span>C#</span>
+                </div>
+                <div class="skill-icon-item" data-skill="python">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    </div>
+                    <span>Python</span>
+                </div>
+                <div class="skill-icon-item" data-skill="java">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    </div>
+                    <span>Java</span>
+                </div>
+                <div class="skill-icon-item" data-skill="php">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                    </div>
+                    <span>PHP</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Développement Web -->
+        <div class="skill-section" data-skill-category="web">
+            <h3 class="skill-section-title">
+                <i class="bi bi-window-desktop"></i>
+                Développement Web
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="html5">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    </div>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-icon-item" data-skill="css3">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    </div>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-icon-item" data-skill="javascript">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-icon-item" data-skill="bootstrap">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                    </div>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bases de données -->
+        <div class="skill-section" data-skill-category="database">
+            <h3 class="skill-section-title">
+                <i class="bi bi-database-fill"></i>
+                Bases de données
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="mysql">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    </div>
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-icon-item" data-skill="phpmyadmin">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.simpleicons.org/phpmyadmin/6C78AF" alt="phpMyAdmin">
+                    </div>
+                    <span>phpMyAdmin</span>
+                </div>
+                <div class="skill-icon-item" data-skill="mongodb">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB">
+                    </div>
+                    <span>MongoDB</span>
+                </div>   
+            </div>
+        </div>
+
+        <!-- Outils & Environnements -->
+        <div class="skill-section" data-skill-category="tools">
+            <h3 class="skill-section-title">
+                <i class="bi bi-tools"></i>
+                Outils & Environnements
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="git">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    </div>
+                    <span>Git</span>
+                </div>
+                <div class="skill-icon-item" data-skill="github">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                    </div>
+                    <span>GitHub</span>
+                </div>
+                <div class="skill-icon-item" data-skill="codeblocks">
+                    <div class="skill-icon-wrapper">
+                        <img src="assets/images/icons/codeblocks.png" alt="Code::Blocks">
+                    </div>
+                    <span>Code::Blocks</span>
+                </div>
+                <div class="skill-icon-item" data-skill="vscode">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                    </div>
+                    <span>VS Code</span>
+                </div>
+                <div class="skill-icon-item" data-skill="postman">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman">
+                    </div>
+                    <span>Postman</span>
+                </div>
+                <div class="skill-icon-item" data-skill="eclipse">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-plain.svg" alt="Eclipse">
+                    </div>
+                    <span>Eclipse</span>
+                </div>
+                <div class="skill-icon-item" data-skill="intellij">
+                    <div class="skill-icon-wrapper">
+                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA">
+                   </div>
+                   <span>IntelliJ IDEA</span>
+                </div>
+                <div class="skill-icon-item" data-skill="powerdesigner">
+                    <div class="skill-icon-wrapper">
+                       <img src="https://cdn.simpleicons.org/sap/0FAAFF" alt="PowerDesigner">
+                    </div>
+                    <span>PowerDesigner</span>
+                </div>
+                <div class="skill-icon-item" data-skill="virtualbox">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.simpleicons.org/virtualbox/183A61" alt="VirtualBox">
+                    </div>
+                    <span>VirtualBox</span>
+                </div>
+                <div class="skill-icon-item" data-skill="jira">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira">
+                    </div>
+                    <span>Jira</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Systèmes & Scripting -->
+        <div class="skill-section" data-skill-category="systems">
+            <h3 class="skill-section-title">
+                <i class="bi bi-terminal-fill"></i>
+                Systèmes & Scripting
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="linux">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
+                    </div>
+                    <span>Linux</span>
+                </div>
+                <div class="skill-icon-item" data-skill="ubuntu">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu">
+                    </div>
+                    <span>Ubuntu</span>
+                </div>
+                <div class="skill-icon-item" data-skill="windows">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Windows">
+                    </div>
+                    <span>Windows</span>
+                </div>
+                <div class="skill-icon-item" data-skill="shell">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Shell">
+                    </div>
+                    <span>Shell</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intelligence Artificielle & Outils IA -->
+<div class="skill-section" data-skill-category="ai">
+    <h3 class="skill-section-title">
+        <i class="bi bi-robot"></i>
+        Intelligence Artificielle & Outils IA
+    </h3>
+    <div class="skill-icons-grid">
+        <div class="skill-icon-item" data-skill="chatgpt">
+            <div class="skill-icon-wrapper">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
+            </div>
+            <span>ChatGPT</span>
+        </div>
+        <div class="skill-icon-item" data-skill="github-copilot">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.simpleicons.org/githubcopilot/000000" alt="GitHub Copilot">
+            </div>
+            <span>GitHub Copilot</span>
+        </div>
+        <div class="skill-icon-item" data-skill="claude">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.simpleicons.org/anthropic/191919" alt="Claude AI">
+            </div>
+            <span>Claude AI</span>
+        </div>
+        <div class="skill-icon-item" data-skill="gemini">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.simpleicons.org/googlegemini/4285F4" alt="Google Gemini">
+            </div>
+            <span>Google Gemini</span>
+        </div>
+
+
+         <div class="skill-icon-item" data-skill="pandas">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+            </div>
+            <span>Pandas</span>
+        </div>
+        <div class="skill-icon-item" data-skill="numpy">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy">
+            </div>
+            <span>NumPy</span>
+        </div>
+        <div class="skill-icon-item" data-skill="scikit-learn">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" alt="scikit-learn">
+            </div>
+            <span>scikit-learn</span>
+        </div>
+        <div class="skill-icon-item" data-skill="tensorflow">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+            </div>
+            <span>TensorFlow</span>
+        </div>
+        <div class="skill-icon-item" data-skill="pytorch">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch">
+            </div>
+            <span>PyTorch</span>
+        </div>
+        <div class="skill-icon-item" data-skill="jupyter">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter">
+            </div>
+            <span>Jupyter</span>
+        </div>
+        <div class="skill-icon-item" data-skill="nlp">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.simpleicons.org/spacy/09A3D5" alt="NLP">
+            </div>
+            <span>NLP</span>
+        </div>
+        <div class="skill-icon-item" data-skill="data-analysis">
+            <div class="skill-icon-wrapper">
+                <img src="https://cdn.simpleicons.org/plotly/3F4F75" alt="Analyse de données">
+            </div>
+            <span>Analyse de données</span>
+        </div>
+
+
+
+    </div>
+</div>
+
+        <!-- Méthodologies & Documentation -->
+        <div class="skill-section" data-skill-category="tools">
+            <h3 class="skill-section-title">
+                <i class="bi bi-diagram-3-fill"></i>
+                Méthodologies & Documentation
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="uml">
+                    <div class="skill-icon-wrapper uml">
+                        <img src="assets/images/icons/UML.jpg" alt="UML">
+                    </div>
+                    <span>UML</span>
+                </div>
+                <div class="skill-icon-item" data-skill="latex">
+                    <div class="skill-icon-wrapper">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX">
+                    </div>
+                    <span>LaTeX</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- En cours d'apprentissage -->
+        <div class="skill-section" data-skill-category="learning">
+            <h3 class="skill-section-title">
+                <i class="bi bi-book-fill"></i>
+                En cours d'apprentissage
+            </h3>
+            <div class="skill-icons-grid">
+                <div class="skill-icon-item" data-skill="wordpress">
+                    <div class="skill-icon-wrapper learning">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress">
+                        <span class="learning-badge"></span>
+                    </div>
+                    <span>WordPress</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Section Parcours -->
+<section class="parcours" id="parcours">
+    <div class="container">
+        <h2 class="section-title">
+            <span>◆</span> Mon parcours
+        </h2>
+
+        <div class="parcours-intro">
+            <p>Découvrez mon cheminement académique et les formations qui ont façonné mes compétences en développement informatique.</p>
+        </div>
+
+        <div class="timeline">
+            <!-- Item 1 - BTS SIO -->
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-icon">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">
+                        <i class="bi bi-calendar-event"></i>
+                        <span>2025 – 2027</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>BTS Services Informatiques aux Organisations (SIO)</h3>
+                            <span class="timeline-badge current">En cours</span>
+                        </div>
+                        <p class="timeline-subtitle">Option Solutions Logicielles et Applications Métiers (SLAM)</p>
+                        <p class="timeline-description">
+                            Formation spécialisée dans le développement d'applications, la conception 
+                            de solutions logicielles et la gestion de bases de données. Apprentissage 
+                            des bonnes pratiques de développement et des méthodologies agiles.
+                        </p>
+                        <div class="timeline-school">
+                            <i class="bi bi-building"></i>
+                            <span>École : SCHOLIA</span>
+                            <a href="https://www.google.com/maps/search/?api=1&query=SCHOLIA+Paris" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="school-location"
+                               title="Voir sur Google Maps">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </a>
+                        </div>
+                        <div class="timeline-skills">
+                            <span>Développement Web</span>
+                            <span>Développement Mobile</span>
+                            <span>Bases de données</span>
+                            <span>POO</span>
+                            <span>Gestion de projet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 - Licence 1 -->
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-icon">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">
+                        <i class="bi bi-calendar-event"></i>
+                        <span>2024 – 2025</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>1ère Année préparatoire intégrée</h3>
+                            <span class="timeline-badge completed">Validée</span>
+                        </div>
+                        <p class="timeline-subtitle">Filière : Mathématiques et Informatique</p>
+                        <p class="timeline-description">
+                            Acquisition des fondamentaux de l'informatique : algorithmique, 
+                            programmation procédurale (langage C), structures de données et 
+                            introduction aux systèmes d'exploitation.
+                        </p>
+                        <div class="timeline-school">
+                            <i class="bi bi-building"></i>
+                            <span>Université Abderrahmane Mira de Béjaïa</span>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Université+Abderrahmane+Mira+Béjaïa+Algérie" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="school-location"
+                               title="Voir sur Google Maps">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </a>
+                        </div>
+                        <div class="timeline-skills">
+                            <span>Algorithmique</span>
+                            <span>Langage C</span>
+                            <span>Mathématiques</span>
+                            <span>Structures de données</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 - Baccalauréat -->
+            <div class="timeline-item">
+                <div class="timeline-marker">
+                    <div class="timeline-icon">
+                        <i class="bi bi-award-fill"></i>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-date">
+                        <i class="bi bi-calendar-event"></i>
+                        <span>2023 – 2024</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>Baccalauréat</h3>
+                            <span class="timeline-badge completed">Obtenu</span>
+                        </div>
+                        <p class="timeline-subtitle">Filière : Mathématiques</p>
+                        <p class="timeline-description">
+                            Formation générale avec spécialisation en mathématiques, développant 
+                            la logique et les capacités d'analyse essentielles pour l'informatique.
+                        </p>
+                        <div class="timeline-school">
+                            <i class="bi bi-building"></i>
+                            <span>Lycée les deux martyrs - Barbacha</span>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Lycée+les+deux+martyrs+Barbacha+Béjaïa+Algérie" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="school-location"
+                               title="Voir sur Google Maps">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </a>
+                        </div>
+                        <div class="timeline-skills">
+                            <span>Mathématiques</span>
+                            <span>Logique</span>
+                            <span>Raisonnement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    </div>
+</section>
+<!-- Section Veille Technologique -->
+<section class="veille" id="veille">
+    <div class="container">
+        <h2 class="section-title">
+            <span>◆</span> Veille technologique
+        </h2>
+
+        <div class="veille-intro">
+            <p>
+                Dans le cadre de ma formation BTS SIO, je réalise une veille technologique constante 
+                pour rester informé des dernières innovations et tendances du secteur informatique, 
+                en particulier sur l'Intelligence Artificielle et les modèles de langage de grande taille (LLM).
+            </p>
+        </div>
+
+        <div class="veille-content">
+            <!-- Thème principal -->
+            <div class="veille-main-theme">
+                <div class="theme-header">
+                    <i class="bi bi-bookmark-star-fill"></i>
+                    <h3>Mon thème de veille principal</h3>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">
+                        <i class="bi bi-cpu-fill"></i>
+                    </div>
+                    <div class="theme-content">
+                        <h4>Intelligence Artificielle & LLM (Large Language Models)</h4>
+                        <p>
+                            Je m'intéresse particulièrement à l'évolution des modèles de langage de grande taille 
+                            (LLM) comme GPT, Claude, Llama et Gemini. Ces technologies révolutionnent le développement 
+                            logiciel avec des assistants de code intelligents (GitHub Copilot, Cursor), la génération 
+                            automatique de documentation, l'optimisation d'algorithmes et la création d'interfaces 
+                            conversationnelles. Je suis également l'impact de l'IA générative sur les métiers du 
+                            développement, les nouvelles pratiques professionnelles qui en découlent, ainsi que les 
+                            enjeux éthiques et réglementaires (AI Act européen). Mon objectif est de comprendre 
+                            comment intégrer efficacement ces outils dans mes projets tout en maîtrisant leurs 
+                            limites et leurs biais potentiels.
+                        </p>
+                        <div class="theme-tags">
+                            <span>LLM</span>
+                            <span>GPT-5</span>
+                            <span>Claude 4</span>
+                            <span>Llama 4</span>
+                            <span>Gemini Ultra</span>
+                            <span>GitHub Copilot</span>
+                            <span>Prompt Engineering</span>
+                            <span>IA Générative</span>
+                            <span>Transformers</span>
+                            <span>RAG</span>
+                            <span>Agents IA</span>
+                            <span>Fine-tuning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sources de veille -->
+            <div class="veille-sources">
+                <h3>
+                    <i class="bi bi-rss-fill"></i>
+                    Mes sources d'information
+                </h3>
+                <div class="sources-grid">
+                    <div class="source-card">
+                        <div class="source-icon">
+                            <i class="bi bi-newspaper"></i>
+                        </div>
+                        <h4>Sites spécialisés IA & LLM</h4>
+                        <ul>
+                            <li><i class="bi bi-check2"></i> OpenAI Blog</li>
+                            <li><i class="bi bi-check2"></i> Anthropic Research</li>
+                            <li><i class="bi bi-check2"></i> Hugging Face Blog</li>
+                            <li><i class="bi bi-check2"></i> Google DeepMind Blog</li>
+                            <li><i class="bi bi-check2"></i> Meta AI Research</li>
+                            <li><i class="bi bi-check2"></i> Mistral AI News</li>
+                            <li><i class="bi bi-check2"></i> Towards Data Science</li>
+                        </ul>
+                    </div>
+
+                    <div class="source-card">
+                        <div class="source-icon">
+                            <i class="bi bi-youtube"></i>
+                        </div>
+                        <h4>Chaînes YouTube</h4>
+                        <ul>
+                            <li><i class="bi bi-check2"></i> Andrej Karpathy</li>
+                            <li><i class="bi bi-check2"></i> Two Minute Papers</li>
+                            <li><i class="bi bi-check2"></i> AI Explained</li>
+                            <li><i class="bi bi-check2"></i> Matthew Berman</li>
+                            <li><i class="bi bi-check2"></i> Sam Witteveen</li>
+                            <li><i class="bi bi-check2"></i> Yannic Kilcher</li>
+                            <li><i class="bi bi-check2"></i> 3Blue1Brown (Deep Learning)</li>
+                        </ul>
+                    </div>
+
+                    <div class="source-card">
+                        <div class="source-icon">
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                        <h4>Réseaux sociaux & Communautés</h4>
+                        <ul>
+                            <li><i class="bi bi-check2"></i> Twitter/X (AI Researchers)</li>
+                            <li><i class="bi bi-check2"></i> LinkedIn (Experts LLM)</li>
+                            <li><i class="bi bi-check2"></i> Reddit (r/LocalLLaMA)</li>
+                            <li><i class="bi bi-check2"></i> Reddit (r/OpenAI)</li>
+                            <li><i class="bi bi-check2"></i> Reddit (r/MachineLearning)</li>
+                            <li><i class="bi bi-check2"></i> Discord (AI Communities)</li>
+                            <li><i class="bi bi-check2"></i> Hacker News (AI Topics)</li>
+                        </ul>
+                    </div>
+
+                    <div class="source-card">
+                        <div class="source-icon">
+                            <i class="bi bi-journal-code"></i>
+                        </div>
+                        <h4>Publications & Recherche</h4>
+                        <ul>
+                            <li><i class="bi bi-check2"></i> ArXiv (cs.AI, cs.CL)</li>
+                            <li><i class="bi bi-check2"></i> Papers With Code</li>
+                            <li><i class="bi bi-check2"></i> Hugging Face Papers</li>
+                            <li><i class="bi bi-check2"></i> GitHub Trending (AI)</li>
+                            <li><i class="bi bi-check2"></i> LLM Leaderboards (LMSYS)</li>
+                            <li><i class="bi bi-check2"></i> AI Conference Proceedings</li>
+                            <li><i class="bi bi-check2"></i> Nature Machine Intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Articles récents -->
+            <div class="veille-articles">
+                <h3>
+                    <i class="bi bi-stars"></i>
+                    Découvertes récentes
+                </h3>
+                <div class="articles-grid">
+                    <!-- Article 1 - GPT-5 -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Septembre 2026</span>
+    </div>
+    <h4>GPT-5 : OpenAI franchit un nouveau cap vers l'AGI</h4>
+    <p>
+        OpenAI dévoile GPT-5 avec des capacités de raisonnement multimodal 
+        jamais vues. Le modèle comprend et génère simultanément du texte, 
+        des images, de l'audio et de la vidéo. Score de 96% sur ARC-AGI, 
+        se rapprochant dangereusement de l'intelligence artificielle générale.
+    </p>
+    <div class="article-tags">
+        <span>GPT-5</span>
+        <span>AGI</span>
+        <span>Multimodal</span>
+    </div>
+    <a href="https://openai.com/index/hello-gpt-4o/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 2 - Claude 4 Opus -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Septembre 2026</span>
+    </div>
+    <h4>Claude 4 Opus : 1 million de tokens de contexte</h4>
+    <p>
+        Anthropic repousse les limites avec Claude 4 Opus capable de traiter 
+        jusqu'à 1 million de tokens en contexte. Le modèle peut analyser des 
+        bases de code entières, des livres complets et générer des applications 
+        complexes sans perte de cohérence.
+    </p>
+    <div class="article-tags">
+        <span>Claude 4</span>
+        <span>1M Context</span>
+        <span>Anthropic</span>
+    </div>
+    <a href="https://www.anthropic.com/news/claude-3-5-sonnet" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 3 - Gemini Ultra 2.5 -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Août 2026</span>
+    </div>
+    <h4>Gemini Ultra 2.5 : Google intègre l'IA quantique</h4>
+    <p>
+        Google annonce Gemini Ultra 2.5, premier LLM partiellement entraîné 
+        sur ordinateur quantique. Temps d'inférence réduit de 80%, capacités 
+        de raisonnement scientifique exceptionnelles. Le modèle résout des 
+        problèmes mathématiques de niveau olympiade en quelques secondes.
+    </p>
+    <div class="article-tags">
+        <span>Gemini Ultra 2.5</span>
+        <span>Quantum AI</span>
+        <span>Science</span>
+    </div>
+    <a href="https://blog.google/technology/ai/google-gemini-ai/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 4 - Meta Llama 4 -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Août 2026</span>
+    </div>
+    <h4>Meta Llama 4 : 405B paramètres en open source</h4>
+    <p>
+        Meta libère Llama 4 avec 405 milliards de paramètres, le plus grand 
+        modèle open source jamais publié. Performances égalant GPT-5 dans 
+        plusieurs benchmarks. Une révolution pour la communauté open source 
+        qui peut désormais rivaliser avec les géants propriétaires.
+    </p>
+    <div class="article-tags">
+        <span>Llama 4</span>
+        <span>405B</span>
+        <span>Open Source</span>
+    </div>
+    <a href="https://ai.meta.com/blog/meta-llama-3/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 5 - Mistral Large 3 -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Juillet 2026</span>
+    </div>
+    <h4>Mistral Large 3 : La France s'impose face aux géants américains</h4>
+    <p>
+        Mistral AI dévoile Large 3, son modèle le plus puissant avec 250B 
+        de paramètres actifs. Architecture MoE révolutionnaire permettant 
+        des performances supérieures à GPT-4 pour un coût d'inférence 10 fois 
+        inférieur. L'Europe confirme sa place dans la course à l'IA.
+    </p>
+    <div class="article-tags">
+        <span>Mistral Large 3</span>
+        <span>MoE</span>
+        <span>Europe</span>
+    </div>
+    <a href="https://mistral.ai/news/mistral-large-2407/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 6 - GitHub Copilot X -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Juillet 2026</span>
+    </div>
+    <h4>GitHub Copilot X : L'IA qui code mieux que les humains</h4>
+    <p>
+        GitHub présente Copilot X capable de générer des applications complètes 
+        à partir de descriptions en langage naturel. Le système comprend les 
+        architectures complexes, applique les design patterns et génère des 
+        tests automatisés. 87% de précision sur HumanEval benchmark.
+    </p>
+    <div class="article-tags">
+        <span>Copilot X</span>
+        <span>Auto-Coding</span>
+        <span>GitHub</span>
+    </div>
+    <a href="https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 7 - Agents IA autonomes -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Juin 2026</span>
+    </div>
+    <h4>Agents IA autonomes : DeepMind annonce AutoGPT Pro</h4>
+    <p>
+        DeepMind dévoile AutoGPT Pro, un système d'agents IA capables de 
+        planifier et exécuter des tâches complexes sur plusieurs jours. 
+        Les agents collaborent entre eux, utilisent des outils externes 
+        et s'auto-corrigent. Révolution dans l'automatisation du travail 
+        intellectuel.
+    </p>
+    <div class="article-tags">
+        <span>Agents IA</span>
+        <span>AutoGPT</span>
+        <span>DeepMind</span>
+    </div>
+    <a href="https://www.deepmind.com/blog" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 8 - RAG 3.0 -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Juin 2026</span>
+    </div>
+    <h4>RAG 3.0 : Fin des hallucinations grâce aux graphes de connaissances</h4>
+    <p>
+        Nouvelle génération de RAG combinant graphes de connaissances, 
+        embeddings vectoriels et raisonnement symbolique. Taux d'hallucination 
+        réduit de 95%, précision factuelle de 99.2%. Standard industriel pour 
+        les applications professionnelles critiques.
+    </p>
+    <div class="article-tags">
+        <span>RAG 3.0</span>
+        <span>Knowledge Graphs</span>
+        <span>Accuracy</span>
+    </div>
+    <a href="https://arxiv.org/search/?query=retrieval+augmented+generation&searchtype=all" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 9 - LLM on-device -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Mai 2026</span>
+    </div>
+    <h4>LLM on-device : Apple Silicon M5 exécute GPT-4 localement</h4>
+    <p>
+        Apple révolutionne l'IA mobile avec la puce M5 capable d'exécuter 
+        des modèles de 70B de paramètres directement sur iPhone et MacBook. 
+        Confidentialité totale, latence nulle, et autonomie préservée. 
+        L'ère des LLM cloud-only touche à sa fin.
+    </p>
+    <div class="article-tags">
+        <span>On-Device AI</span>
+        <span>Apple M5</span>
+        <span>Privacy</span>
+    </div>
+    <a href="https://machinelearning.apple.com/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 10 - AI Act -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Mai 2026</span>
+    </div>
+    <h4>Union Européenne : Régulation IA Act entre en vigueur</h4>
+    <p>
+        L'AI Act européen devient effectif avec des règles strictes pour 
+        les LLM. Obligation de transparence sur les données d'entraînement, 
+        détection des deepfakes, et droit à l'explication des décisions IA. 
+        Impact majeur sur le développement et déploiement des modèles en Europe.
+    </p>
+    <div class="article-tags">
+        <span>AI Act</span>
+        <span>Regulation</span>
+        <span>Europe</span>
+    </div>
+    <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 11 - Breakthrough -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Avril 2026</span>
+    </div>
+    <h4>Breakthrough : LLM résout la conjecture de Riemann</h4>
+    <p>
+        Un LLM spécialisé développé par le MIT résout partiellement la 
+        conjecture de Riemann, l'un des problèmes mathématiques du millénaire. 
+        Première démonstration concrète qu'une IA peut faire avancer la 
+        recherche fondamentale en mathématiques pures.
+    </p>
+    <div class="article-tags">
+        <span>Mathematics</span>
+        <span>Research</span>
+        <span>Breakthrough</span>
+    </div>
+    <a href="https://news.mit.edu/topic/artificial-intelligence2" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+
+<!-- Article 12 - Nvidia H200 -->
+<article class="article-card">
+    <div class="article-date">
+        <i class="bi bi-calendar3"></i>
+        <span>Avril 2026</span>
+    </div>
+    <h4>Nvidia dévoile les GPU H200 Ultra pour l'entraînement des LLM</h4>
+    <p>
+        Nvidia annonce la série H200 Ultra avec 2TB de mémoire HBM4 et 
+        performance d'entraînement multipliée par 5. Coût d'entraînement 
+        des modèles de 1T paramètres réduit de 70%. Nouvelle architecture 
+        Transformer Ultra optimisée pour les LLM géants.
+    </p>
+    <div class="article-tags">
+        <span>Nvidia H200</span>
+        <span>GPU</span>
+        <span>Training</span>
+    </div>
+    <a href="https://blogs.nvidia.com/blog/category/deep-learning/" target="_blank" rel="noopener noreferrer" class="article-link">
+        Lire plus <i class="bi bi-arrow-right"></i>
+    </a>
+</article>
+                </div>
+            </div>
+
+            <!-- Outils de veille -->
+            <div class="veille-tools">
+                <h3>
+                    <i class="bi bi-tools"></i>
+                    Mes outils de veille
+                </h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <i class="bi bi-rss"></i>
+                        <div>
+                            <h4>Feedly</h4>
+                            <p>Agrégateur RSS pour centraliser mes sources IA et LLM</p>
+                        </div>
+                    </div>
+                    <div class="tool-item">
+                        <i class="bi bi-bookmark-star"></i>
+                        <div>
+                            <h4>Notion</h4>
+                            <p>Base de connaissances pour organiser articles et recherches</p>
+                        </div>
+                    </div>
+                    <div class="tool-item">
+                        <i class="bi bi-bell"></i>
+                        <div>
+                            <h4>Google Alerts</h4>
+                            <p>Alertes sur nouveaux LLM et avancées en IA générative</p>
+                        </div>
+                    </div>
+                    <div class="tool-item">
+                        <i class="bi bi-github"></i>
+                        <div>
+                            <h4>GitHub Watch</h4>
+                            <p>Suivi des repos IA trending et projets open source LLM</p>
+                        </div>
+                    </div>
+                    <div class="tool-item">
+                        <i class="bi bi-graph-up"></i>
+                        <div>
+                            <h4>Papers With Code</h4>
+                            <p>Suivi des dernières publications et benchmarks</p>
+                        </div>
+                    </div>
+                    <div class="tool-item">
+                        <i class="bi bi-discord"></i>
+                        <div>
+                            <h4>Discord Communities</h4>
+                            <p>Échanges avec développeurs et chercheurs IA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span>◆</span> Contactez-moi
+            </h2>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>Je suis actuellement à la recherche d'opportunités de stage ou d'alternance en développement. N'hésitez pas à me contacter !</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:rayanemeddah0770@gmail.com">rayanemeddah0770@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Montmagny, France (95360)</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/rayane-meddah-b98003397/" target="_blank" rel="noopener noreferrer">Voir mon profil</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="bi bi-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/rayanemeddah" target="_blank" rel="noopener noreferrer">github.com/rayanemeddah</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<form class="contact-form" id="contactForm" novalidate>
+    <div class="form-group">
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" name="name" placeholder="Ex: Rayane MEDDAH" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Ex: rayane.meddah@example.com" required>
+    </div>
+    <div class="form-group">
+        <label for="subject">Sujet</label>
+        <input type="text" id="subject" name="subject" placeholder="Ex: Demande d'alternance en développement Web" required>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Laissez votre message ici..." required></textarea>
+    </div>
+
+    <div class="form-footer">
+        <button type="submit" class="btn btn-primary">
+            <i class="bi bi-send"></i>
+            Envoyer le message
+        </button>
+        
+        <div class="g-recaptcha" data-sitekey="6LcNm9MtAAAAAC2r1u7K_RtXzu1nt29gGw3tp_f9"></div>
+    </div>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>2026 Rayane MEDDAH. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Projet -->
+    <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Fermer">
+                <i class="bi bi-x"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal Compétence -->
+    <div class="modal" id="skillModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-content skill-modal-content">
+            <button class="modal-close" id="skillModalClose" aria-label="Fermer">
+                <i class="bi bi-x"></i>
+            </button>
+            <div class="modal-body" id="skillModalBody">
+                <!-- Contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton retour en haut -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Retour en haut">
+       <i class="bi bi-arrow-up"></i>
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
